@@ -1,0 +1,12 @@
+# Keep line endings stable: web/index.html carries a Content-Security-Policy
+# hash of its inline loader, and a CRLF checkout would change that hash.
+* text=auto
+web/index.html text eol=lf
+*.sh text eol=lf
+*.rs text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.png binary
+*.ttf binary
+*.cdr binary
+*.tdraw text eol=lf
